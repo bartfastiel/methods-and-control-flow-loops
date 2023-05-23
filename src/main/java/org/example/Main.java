@@ -4,16 +4,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hallo Daniel");
         System.out.println("Heute ist Dein Geburtstag!");
-
-        int count = 0;
-        while (count < 3) {
+        for (int countD = 0; countD < 3; countD++) {
             System.out.println("Hurra!");
-            count++;
         }
 
         System.out.println("Hallo Florian");
         System.out.println("Heute ist Dein Geburtstag!");
-
         for (int countF = 0; countF < 3; countF++) {
             System.out.println("Hurra!");
         }
@@ -23,7 +19,5 @@ public class Main {
         for (int countM = 0; countM < 3; countM++) {
             System.out.println("Hurra!");
         }
-
-
     }
 }
