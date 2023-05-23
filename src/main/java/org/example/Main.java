@@ -13,15 +13,16 @@ public class Main {
 
         System.out.println("Hallo Florian");
         System.out.println("Heute ist Dein Geburtstag!");
-        System.out.println("Hurra!");
-        System.out.println("Hurra!");
-        System.out.println("Hurra!");
+
+        for (int countF = 0; countF < 3; countF++) {
+            System.out.println("Hurra!");
+        }
 
         System.out.println("Hallo Marcell");
         System.out.println("Heute ist Dein Geburtstag!");
-        System.out.println("Hurra!");
-        System.out.println("Hurra!");
-        System.out.println("Hurra!");
+        for (int countM = 0; countM < 3; countM++) {
+            System.out.println("Hurra!");
+        }
 
 
     }
