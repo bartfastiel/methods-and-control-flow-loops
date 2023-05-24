@@ -12,9 +12,11 @@ public class Main {
     public static void congratulate(String name) {
         System.out.println("Hallo " + name);
         System.out.println("Heute ist Dein Geburtstag!");
-        for (int countD = 0; countD < 3; countD++) {
+        int countD = 0;
+        do {
             System.out.println("Hurra!");
-        }
+            countD++;
+        } while (countD < 3);
     }
 
     public static String composeSummary() {
